@@ -1,0 +1,29 @@
+body,
+h1,
+h2,
+h4,
+ul,
+section,
+p,
+div {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    max-width: 1024px;
+    height: 300vh;
+    background: linear-gradient(180deg, rgba(63, 62, 62, 1) 0%,
+            rgba(66, 66, 66, 1) 33%,
+            rgba(116, 116, 116, 1) 100%);
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url("//db.onlinewebfonts.com/t/0033a2fbc0329740fb86c1cfd134cb94.eot");
+    src: url("//db.onlinewebfonts.com/t/0033a2fbc0329740fb86c1cfd134cb94.eot?#iefix") format("embedded-opentype"),
+        url("//db.onlinewebfonts.com/t/0033a2fbc0329740fb86c1cfd134cb94.woff2") format("woff2"),
+        url("//db.onlinewebfonts.com/t/0033a2fbc0329740fb86c1cfd134cb94.woff") format("woff"),
+        url("//db.onlinewebfonts.com/t/0033a2fbc0329740fb86c1cfd134cb94.ttf") format("truetype"),
+        url("//db.onlinewebfonts.com/t/0033a2fbc0329740fb86c1cfd134cb94.svg#Roboto") format("svg");
+}
